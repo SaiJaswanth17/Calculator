@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+<!-- // 3. getElementByClassNameI(); -->
+<body>
+    <div class="gnit">
+        This is an example program on <br/>
+        getElementsByName method
+    </div>
+    <script>
+        var elements = document.getElementsByClassName("gnit");
+        var Result = elements[0].innerHTML; // Get the innerHTML of the first element with class "gnit"
+        document.write(Result);
+    </script>
+</body>
+
+   <!-- 2.getElementByName(); -->
+    <!-- <head>
+        <script>
+            function totalCount(){
+                var total=document.getElementsByName("gender");
+                alert("Total count for radio buttons is="+total.length)
+            }
+        </script>
+            </head>
+            <body>
+                <form>
+                    Male:<input type="radio" name="gender" value="male"/>
+                    Female:<input type="radio" name="gender" value="female"/>
+                    <br/>
+                    <input type="submit" onclick="totalCount()"/>
+                </form>
+            </body> -->
+
+
+
+
+
+ <!-- 1.GetElementByID() -->
+
+    <!-- <head>
+        <script>
+           function square(){
+             var number=document.getElementById("number").value;
+             document.write("Result of the square is="+(number*number));  
+           }
+        </script>
+       </head>
+       <body>
+      <form>
+       Enter a number:<input type="text" id="number" />
+       <input type="button" value="square" onclick="square()"/>
+      </form>
+       </body> -->
+   
+
+
+    <!-- <head>
+        <script>
+        function validate()
+        {
+       var user=document.myForm.username.value;
+       var pass=document.myForm.password.value;
+       if(user==""&&pass==""){
+        document.write("please enter your username & password")
+       }
+       else if(pass.length<8)
+       {
+        document.write("please enter above 8 characters")
+       }
+       else{
+        document.write("username is="+user+"password is="+pass);
+       }
+        }
+        </script>
+    </head>
+    <body>
+        <form name="myForm" method="post" onsubmit="validate()">
+            UserName:<input type="text" name="username"/><br/>
+            Password:<input type="password" name="password"/><br/>
+            <br/>
+            <input type="submit" value="submit"/>
+        </form>
+    </body> -->
+
+    <!-- <head><meta charset="utf-8"></head><head>
+        <title>JS</title>
+    </head>
+    <body>
+    <script type="text/javascript">
+        document.writeln("Welcome to javascript")
+     var a=parseInt(prompt("enter a value"));
+     var b=parseInt(prompt("enter b value"));
+
+    if(a>b){
+        document.writeln("a is greater")
+    }
+    else{
+        document.writeln("b is greater")
+    }
+
+    for(var i=1;i<=10;i++){
+                document.writeln("i value is="+i+"<br>");
+    } 
+    function displayInfo()
+            {
+                document.write("function definition")
+            }
+    </script>
+     <body>
+               <input type="submit" value="submit" onclick="displayInfo()">   
+               <input type="submit" value="submit" ondblclick="displayInfo()"> 
+               <input type="submit" value="submit" onmouseover="displayInfo()">
+               <input type="submit" value="submit" onmouseout="displayInfo()">
+               
+    </body>
+  
+   <head>
+     <script>
+    function validate()
+    {
+        
+    }
+    </script>
+</head>
+<body>
+    <form name="myForm" method="post" onsubmit="validate()">
+        UserName:<input type="text" name="username"/><br/>
+        Password:<input type="password" name="password"/><br/>
+        <br/>
+        <input type="submit" value="submit"/>
+    </form>
+ </body>
+ 
+
+<head>
+    <script>
+    function validate()
+    {
+   var user=document.myForm.username.value;
+   var pass=document.myForm.password.value;
+   if(user==""&&pass==""){
+    document.write("please enter your username & password")
+   }
+   else if(pass<8)
+   {
+    document.write("please enter above 8 characters")
+   }
+   else{
+    document.write("username is="+user+"password is="+pass);
+   }
+    }
+    </script>
+</head>
+<body>
+    <form name="myForm" method="post" onsubmit="validate()">
+        UserName:<input type="text" name="username"/><br/>
+        Password:<input type="password" name="password"/><br/>
+        <br/>
+        <input type="submit" value="submit"/>
+    </form>
+ </body>  -->
+
+</html>

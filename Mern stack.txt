@@ -1,0 +1,61 @@
+MERN Stack development tools and technologies
+
+
+bootstrap
+sass
+materialUI
+tailwind
+flutter
+
+CSS---
+3types
+1)inline style
+2)internal or embedded style sheet
+3)external 
+
+IN external 
+we need to use link tag
+syntax---<link ref="" href="";
+
+JAVASCRIPT
+1.)Dynamic Web Pages
+2.)features       
+
+for loop
+
+
+JavaScript document Object Model:
+
+JavaScript follows DOM model or tree structure model
+for finding elements or tag content  or property content.
+By updating content in JavaScript code it follows basically the given built-in methods...
+They are
+
+1. getElementById();
+2. getElementByName();
+3. getElementByClassNameI();
+4. innerHTML 
+ and son on..........
+
+
+JAVASCRIPT
+ rest operator:
+ spread operator:
+ asynchoronous:
+ callback function:
+ asynchoronous:
+ async/await:
+
+
+
+
+
+ NPM-- node package manager
+
+version control management system  (or) sub version control management system 
+---------------------------------------------------------------------------
+ GITHUB
+ GitLab
+ bitbucket......
+ ----------------------------------------------------------------------------
+ 

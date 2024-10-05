@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking 1 fractional unit */
+    gap: 10px; /* add a 10px gap between grid cells */
+  }
+  
+  .row {
+    display: contents; /* remove the row element from the grid */
+  }
+  
+  .col {
+    grid-column: span 1; /* each column spans 1 grid cell */
+    width: 100px;
+    height: 100px;
+    background-color: #eee; /* add a default background color */
+  }
+  
+  #child1 {
+    background-color: yellowgreen;
+  }
+  
+  #child2 {
+    background-color: yellow;
+  }
+  
+  #child3 {
+    background-color: red;
+  }
+  
+  #child4 {
+    background-color: blue;
+  }
